@@ -1,1 +1,122 @@
-# yuuki
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionamiento de Aplicaciones Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #6f2e2e;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 10px dotted #1732b7;
+            padding: 5px;
+            margin: 20px 0;
+        }
+        .reference {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .concept {
+            background-color: #c4ddf4;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 5px solid #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Funcionamiento de las Aplicaciones Web</h1>
+
+        <p>Las aplicaciones web son programas que los usuarios pueden utilizar a través de un navegador web. Estas aplicaciones utilizan una arquitectura cliente-servidor, donde el <strong>cliente</strong> (navegador) interactúa con el <strong>servidor</strong> mediante peticiones HTTP, y el servidor responde con páginas web dinámicas, normalmente construidas con HTML, CSS y JavaScript.</p>
+
+        <h2>Conceptos Clave</h2>
+
+        <div class="concept">
+            <h3>Cliente-Servidor</h3>
+            <p>La arquitectura cliente-servidor define cómo interactúan los dispositivos (clientes) con un servidor centralizado, donde el servidor procesa las solicitudes del cliente y devuelve los datos necesarios.</p>
+        </div>
+
+        <div class="concept">
+            <h3>HTTP y HTTPS</h3>
+            <p>El Protocolo de Transferencia de Hipertexto (HTTP) es el medio estándar para la comunicación en la web. HTTPS es la versión segura, que cifra los datos entre el cliente y el servidor.</p>
+        </div>
+
+        <div class="concept">
+            <h3>Frontend y Backend</h3>
+            <p>El <strong>Frontend</strong> se refiere a la interfaz de usuario, lo que los usuarios ven e interactúan. El <strong>Backend</strong> se refiere a la lógica del servidor, bases de datos y API.</p>
+        </div>
+
+        <h2>Imágenes de Referencia</h2>
+
+       <center> <h1>Arquitectura de una Aplicación Web</h1>
+        <img src="Imagenes/WEB.webp" alt="Diagrama de arquitectura de una aplicación web" /></center>
+
+        <center><h1>Flujo de Datos Cliente-Servidor</h1>
+        <img src="Imagenes/CLIENTE.webp" alt="Flujo de datos en cliente-servidor" /></center>
+
+        <h2>Referencias en Estilo APA</h2>
+        <p class="reference">Morville, P., & Rosenfeld, L. (2006). <em>Information architecture for the World Wide Web</em> (3rd ed.). O'Reilly Media.</p>
+        <p class="reference">Berners-Lee, T. (1999). <em>Weaving the Web: The original design and ultimate destiny of the World Wide Web by its inventor</em>. Harper San Francisco.</p>
+    </div>
+</body>
+
+<body>
+    <div class="container">
+        <h1>Tecnologias para el desarrollo de las aplicaciones web</h1>
+
+        <p>El desarrollo de aplicaciones web requiere el uso de diversas tecnologías que abarcan tanto el lado del cliente (frontend) como el lado del servidor (backend). Estas tecnologías se combinan para crear experiencias interactivas y gestionar la lógica de negocio de manera eficiente. A continuación, se describen las principales tecnologías utilizadas en cada una de estas áreas.</p>
+
+        <h2>Conceptos Clave</h2>
+
+        <div class="concept">
+            <h3>HTML, CSS y JavaScript</h3>
+            <p>HTML (Lenguaje de Marcado de Hipertexto): Es la base de todas las páginas web, proporcionando la estructura del contenido, como encabezados, párrafos, imágenes y enlaces.
+                <P>CSS (Hojas de Estilo en Cascada): Define la apariencia visual de una página web. Con CSS, se controlan aspectos como los colores, tipografías, márgenes y disposición de los elementos.</P>
+                JavaScript: Es el lenguaje de programación que permite añadir interactividad a las páginas web. Con JavaScript, los desarrolladores pueden crear funciones dinámicas como menús desplegables, validación de formularios y actualizaciones de contenido sin necesidad de recargar la página.</p>
+        </div>
+
+        <div class="concept">
+            <h3> Frameworks Frontend</h3>
+            <p>React: Desarrollado por Facebook, es una biblioteca JavaScript popular para construir interfaces de usuario basadas en componentes reutilizables.
+                <P>Angular: Un framework completo desarrollado por Google que permite construir aplicaciones de una sola página (SPA) con una arquitectura modular.</P>
+                Vue.js: Un framework progresivo de JavaScript que es fácil de integrar en proyectos nuevos o existentes, facilitando la creación de interfaces interactivas.</p>
+        </div>
+
+        <div class="concept">
+            <h3>Lenguajes de Programación Backend</h3>
+            <p>El backend de una aplicación web es responsable de la lógica del servidor, la interacción con bases de datos y la gestión de solicitudes del cliente. Algunos de los lenguajes más utilizados incluyen:</p>
+            <P>JavaScript (Node.js): Node.js es un entorno de ejecución que permite usar JavaScript en el servidor, lo que facilita la creación de aplicaciones escalables y en tiempo real.
+                <P>Python: Popular por su simplicidad y versatilidad, Python es utilizado con frameworks como Django y Flask para construir aplicaciones web robustas.</P>
+                <P>Ruby: Utilizado con el framework Ruby on Rails, este lenguaje es conocido por su facilidad de uso y productividad en el desarrollo web.</P>
+                <P>PHP: Es uno de los lenguajes más utilizados en el desarrollo web, especialmente en sitios de contenido dinámico y en la construcción de plataformas como WordPress.</P>
+                Java: Amplio en el desarrollo empresarial, Java es utilizado para aplicaciones que requieren alta escalabilidad y seguridad.</P>
+        </div>
+
+        <div class="concept">
+            <h3>Lenguajes de Programación Backend</h3>
+            <p>El <strong>Frontend</strong> se refiere a la interfaz de usuario, lo que los usuarios ven e interactúan. El <strong>Backend</strong> se refiere a la lógica del servidor, bases de datos y API.</p>
+        </div>
+
+      
+        <h2>Referencias en Estilo APA</h2>
+        <p class="reference">Duckett, J. (2011). <em>HTML & CSS: Design and Build Websites</em>. John Wiley & Sons.</p>
+        <p class="reference">Flanagan, D. (2006). <em>JavaScript: The Definitive Guide</em> (5th ed.). O'Reilly Media.</p>
+        <p class="reference">Nixon, R. (2018). <em>Learning PHP, MySQL & JavaScript</em> (5th ed.). O'Reilly Media.</p>
+        <p class="reference">Grinberg, M. (2018). <em>Flask Web Development</em> (2nd ed.). O'Reilly Media.</p>
+        <p class="reference">Ferguson, S. (2019). <em>Full-Stack React Projects</em>. Packt Publishing.</p>
+    </div>
+</body>
+</html>
